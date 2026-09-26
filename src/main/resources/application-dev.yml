@@ -1,0 +1,12 @@
+server:
+  port: 8081
+app:
+  mail:
+    enabled: false
+    retry-count: 1
+  integration:
+    base-url: "https://dev-api.iitu.kz"
+    timeout: 30s
+logging:
+  level:
+    kz.iitu: DEBUG
