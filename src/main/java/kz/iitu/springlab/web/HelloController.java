@@ -57,4 +57,6 @@ public class HelloController {
     public record Greeting(String message, String owner, LocalDateTime timestamp) { }
 
     public record Info(String owner, String javaVersion, int cpuCores) { }
+
+    // тест
 }
