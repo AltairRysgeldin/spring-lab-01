@@ -39,7 +39,6 @@ class EmailNotifier implements Notifier {
 }
 
 @Component("noop")
-@Fallback
 @Order(99)
 class NoopNotifier implements Notifier {
 
